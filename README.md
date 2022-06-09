@@ -42,7 +42,7 @@ optional arguments:
 *  `--checkpoint_interval` interval between model checkpoints (default=-1)
 
 ## Inference/Shape completion examples:
-There are two saved models trained with [circles](https://drive.google.com/file/d/1OC5KkQiXxeqvclOXWxYk3sV57vhF3bXJ/view?usp=sharing) and [urban](https://drive.google.com/file/d/1f6v971Ez3d7hS2GUdyCUw0eGoKzYpWC4/view?usp=sharing) environemnts separately. To test the trained models, please download and put them separately in `/saved_models/circles` and `/saved_models/city_v0`. Several images in both cases provided in `/data/circles/test/` and `/data/urban_envs/test/` for testing.
+There are two saved models trained with circles and urban environemnts separately. To test the trained models, please download and put them (from [circles](https://drive.google.com/file/d/1OC5KkQiXxeqvclOXWxYk3sV57vhF3bXJ/view?usp=sharing) and [urban](https://drive.google.com/file/d/1f6v971Ez3d7hS2GUdyCUw0eGoKzYpWC4/view?usp=sharing)) separately in `/saved_models/circles` and `/saved_models/city_v0`. Several images in both cases provided in `/data/circles/test/` and `/data/urban_envs/test/` for testing.
 
 Test for the circles environments:
 ```bash
